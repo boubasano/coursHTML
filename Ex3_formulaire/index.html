@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_mobile.css">
+  <link rel="stylesheet" href="style_tablette.css">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+  <script src="script.js"></script>
+</head>
+<body>
+    <form action="validation.html" method="get">
+    <div>
+        <label for="name" placeholder="tapez votre nom içi">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+     <div>
+        <label for="name" placeholder="tapez votre prenom içi">Prenom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail" placeholder="tapez votre email içi" required>e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="password" placeholder="tapez votre mot de passe içi" required>mot de passe :</label>
+        <input type="password" id="password" name="user_password">
+    </div>
+    <div>
+        <p> Vous êtes :  </p>
+    </div>
+
+    <div>
+        <input type="radio" name="immo" value="locataire" id="locataire" />
+        <label for="locataire">Locataire</label>
+   
+        <input type="radio" name="immo" value="proprietaire" id="proprietaire" />
+        <label for="proprietaire">Proprietaire</label>
+    </div>
+    
+
+    <label for="precisions">Si "Autre", veuillez préciser : </label>
+    <textarea name="precisions" id="precisions" cols="30" rows="10"></textarea>
+
+    <br><br>
+    <label for="pays">Dans quel pays habitez-vous? </label>
+    <select name="pays" id="pays">
+        <option disabled selected value="">Choisir votre nationalité</option>
+        <optgroup label="Europe">        
+            <option value="france">France</option>
+            <option value="france">Espagne</option>
+            <option value="france">Italie</option>
+            <option value="france">Royaume-Uni</option>
+        </optgroup>
+        <optgroup label="Amerique">
+            <option value="canada">Canada</option>
+            <option value="etats-unis">Etats-Unis</option>
+        </optgroup>
+         <optgroup label="Asie">
+            <option value="chine">Chine</option>
+            <option value="japon">Japon</option>
+        </optgroup>
+        
+    </select>
+    
+        <div>
+            <input type="submit" value="Valider">
+        </div>
+    
+    
+</form>
+</body>
+</html>

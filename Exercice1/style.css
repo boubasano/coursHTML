@@ -1,0 +1,45 @@
+
+header {
+    width: 100vw;
+     background-color: grey;
+     height:6vh;
+     display: flex;
+     justify-content: center;
+   
+
+}
+
+li {
+    display: inline;
+    margin: auto;
+   
+    color:blue;
+}
+
+strong {
+    color:red;
+}
+#presentation {
+    font-family: Times, 'Times New Roman', serif;
+    color: green;
+
+    
+}
+
+section {
+    display: flex;
+}
+
+.photo {
+    width: 80px;
+    
+}
+
+.apropos {
+    margin-left:20px;
+}
+
+footer {
+    margin-top:2%;
+}
+

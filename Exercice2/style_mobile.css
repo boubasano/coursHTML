@@ -1,0 +1,138 @@
+@media all and (max-width: 960px){
+body {
+    margin:0;
+    
+}
+section {
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.block1 {
+    background-image: url("salon.jpg");
+    background-color: rgba(0, 0, 255, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 59%;
+    min-height: 59%;
+    display: flex;
+}
+
+.part_bas {
+    color:white;    
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    opacity: 0.6;
+    
+}
+
+.block2 {
+  height: 40%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.bloc {
+    margin-top: 0;
+    width: 100%;
+    
+}
+
+
+.block_haut {
+    background-color: green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height:47%;
+}
+
+.bloc_text_haut {
+    margin: auto;
+  text-transform: uppercase;
+  text-align: left;
+  }
+  
+.text_block_vert {
+    font-size: 15px;
+}
+
+.text_block_noir  {
+    font-size: 13px;
+    
+    margin-top: 0;
+}
+
+.block_bas {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 51%;
+
+    
+}
+
+.bloc_text_bas {
+    margin: auto;
+  text-align: center;
+  
+}
+
+.rond {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px white solid;
+  display: flex;
+  margin: auto;  
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+}
+
+.menu {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between; 
+    justify-content: flex-start;
+    position: absolute;
+}
+
+
+.list {
+    padding-top: 5%;
+    list-style-type:none;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    align-items:flex-start ;
+    justify-content: space-between;
+    
+}
+}
